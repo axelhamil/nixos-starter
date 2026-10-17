@@ -1,5 +1,23 @@
 # Changelog
 
+## [0.2.0](https://github.com/axelhamil/nixos-starter/compare/v0.1.0...v0.2.0) (2026-10-17)
+
+
+### Features
+
+* **desktop:** print to network printers without installing a driver ([27fb7a6](https://github.com/axelhamil/nixos-starter/commit/27fb7a6aeacaf4365ec6575676d963c2bb7ab9fc))
+* **doctor:** check a machine and list what the next boot erases ([6cb9f91](https://github.com/axelhamil/nixos-starter/commit/6cb9f9130bb6fdef323bbba0eb4ab22251d4180c))
+* **hibernate:** hibernate and suspend-then-hibernate to an encrypted swap ([bae35e2](https://github.com/axelhamil/nixos-starter/commit/bae35e2c664500e364b557f54ba213fb0ef9e150))
+* **hosts:** read the installer's hardware report from a facter field ([259e744](https://github.com/axelhamil/nixos-starter/commit/259e744768d5404806ff9bce7f56ec51e71ed352))
+* **init:** make a fresh fork yours with nix run .#init ([393eef3](https://github.com/axelhamil/nixos-starter/commit/393eef3d7edec7425a3277504c0b8052a1099699))
+* **update:** keep forks and machines up to date every week ([#22](https://github.com/axelhamil/nixos-starter/issues/22)) ([2a1f389](https://github.com/axelhamil/nixos-starter/commit/2a1f38905251238d7180a3869ac7a2698fd1fdf2))
+
+
+### Bug Fixes
+
+* **doctor:** stop reporting links into /run as files lost at boot ([#25](https://github.com/axelhamil/nixos-starter/issues/25)) ([011ad7b](https://github.com/axelhamil/nixos-starter/commit/011ad7bf26ed6ea71358bc295f14bf85f2d6c871))
+* **snapshots:** stop the hourly btrbk run from racing the snapshot test ([f20d37f](https://github.com/axelhamil/nixos-starter/commit/f20d37f8f559d122dbd17be834dcfb8be2e6a26f))
+
 ## 0.1.0 (2026-10-16)
 
 
